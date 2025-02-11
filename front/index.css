@@ -62,6 +62,14 @@ header nav .right .connexion {
     gap: 10px; /* Ajuste l'espace selon tes besoins */
 }
 
+header nav .right .inscription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 10px; /* Ajuste l'espace selon tes besoins */
+}
+
 .modal {
     display: none; /* Caché par défaut */
     position: fixed;
@@ -95,6 +103,7 @@ form {
 .submit{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .submit button {
@@ -116,9 +125,10 @@ form {
 .close {
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 3px;
     cursor: pointer;
     font-size: 20px;
+    display: flex;
 }
 
 
